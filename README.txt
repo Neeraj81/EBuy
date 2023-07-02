@@ -34,6 +34,15 @@ Checkout Process
 About Page
 Contact Us Page
 
+Steps to run:
+1.	Open your XAMPP/WAMP's Control Panel and start "Apache" and "MySQL".
+2.	Extract the source code zip file
+3.	If you are using XAMPP, copy and paste the source code folder into XAMPP's "htdocs" directory. 
+4.	Open a web browser and browse the PHPMyAdmin. (http://localhost/phpmyadmin)
+5.	Create a new database naming "ebuy".
+6.	Import the SQL file to your newly created database. The SQL file is located inside the extracted source code folder in ebuy/database dir and known as "ebuy.sql".
+7.	Open a web browser and browse the web application. (http://localhost/ebuy) for the website and for the admin side (http://localhost/ebuy/admin)
+
 
 Default Admin Access
 Username: admin
